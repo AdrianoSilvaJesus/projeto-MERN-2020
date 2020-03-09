@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import './Menu.css';
 
@@ -7,8 +8,8 @@ const Menu = () => {
 		<header>
 			<nav id="menu">
 				<ul>
-					<li><a href="/">Inicio</a></li>
-					<li><a href="/configuracoes">Configurações</a></li>
+					<li><NavLink to="/">Inicio</NavLink></li>
+					<li><NavLink to="/config">Configurações</NavLink></li>
 				</ul>
 			</nav>
 		</header>	
