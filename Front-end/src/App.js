@@ -2,6 +2,8 @@ import React from 'react';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 
 import Menu from './shared/Menu/Menu';
+import Inicio from './inicio/pages/inicio';
+
 import './App.css';
 
 const App = () => {
@@ -15,19 +17,6 @@ const App = () => {
 	</Router>
   );
 }
-
-const Inicio = () => {
-	return(
-	<div className="container">
-		<main>
-		   	<article>
-		    			a
-		    </article>
-		</main>
-	  	<aside>b</aside>
-	</div>
-	)
-};
 
 const Config = () => {
 	return(
