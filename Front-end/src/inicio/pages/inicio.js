@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ListaExercicios from '../components/listaExercicos';
+import ListaExercicios from '../components/listaExercicios';
 import './inicio.css';
 
 const Inicio = () => {

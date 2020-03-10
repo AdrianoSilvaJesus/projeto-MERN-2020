@@ -1,0 +1,13 @@
+ul#lista-exercicios{
+	list-style: none;
+	width:100%;
+	height:100%;
+	display:flex;
+	flex-direction:column;
+}
+
+ul#lista-exercicios li{
+	padding:1%;
+	border-bottom:1px solid black;
+	flex:1 1 0;
+}

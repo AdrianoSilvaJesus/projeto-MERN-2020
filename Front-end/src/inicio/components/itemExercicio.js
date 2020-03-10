@@ -4,8 +4,8 @@ const ItemExercicio = props => {
 	return(
 		<li>
 			<div>
-				<h1>Titulo Exercicio</h1>
-				<p>Anotação do exercicio</p>
+				<h1>{props.titulo}</h1>
+				<p>{props.descricao}</p>
 			</div>
 		</li>
 	);
